@@ -1,0 +1,59 @@
+size(400,400);
+
+background(#F2EFC6);
+
+
+//draw ellipse 
+noStroke();
+fill(#699CAA);
+ellipse (300,160,260,200);
+
+
+//draw ellipse with mouse coord
+noStroke ();
+fill(#BED39A);
+ellipse (80,200,280,200);
+
+
+//draw rectangle
+noStroke();
+fill(#BED39A);
+rect(0,180,400,400);
+
+
+noStroke();
+fill(#94BF92);
+ellipse(50,165,100,100);
+
+
+strokeWeight(16);
+stroke(#446A42);
+line(50,320,50,220);
+
+
+strokeWeight(4);
+stroke(#446A42);
+line(50,250,50,140);
+
+
+strokeWeight(3);
+stroke(#446A42);
+line(50,200,70,170);
+
+strokeWeight(4);
+stroke(#446A42);
+line(50,180,35,150);
+
+strokeWeight(4);
+stroke(#FFEF5D);
+fill(#E5DA71);
+ellipse(350,380,300,300);
+
+strokeWeight(5);
+stroke(#8CC1B4);
+fill(#C0E0D8);
+ellipse(10,30,80,80);
+
+noStroke();
+fill(#E0CA7A);
+triangle(10,115,130,70,90,0);
